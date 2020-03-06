@@ -1,0 +1,66 @@
+#solve2
+import math
+# x = 4
+# y = 3
+# z = 2
+# w = (math.pow(((x+(y*z))/(x*y)), z))
+# print(w)
+
+# angka = input("masukkan angka: ")
+# print(angka)
+# print(math.pow(int(angka), 2))
+
+#solve3
+# jumlah = 485
+# tahun = 360
+# bulan = 30
+# minggu = 7
+# hari = 1
+# print = input(str((jumlah//tahun)) + ' Tahun')
+# print = input(str((jumlah-tahun)//bulan) + ' Bulan') 
+# print = input(str(((jumlah-tahun)-bulan*4)//minggu) + ' minggu')
+# print = input(str(((jumlah-tahun)-(bulan*4)//hari)) + ' Hari')
+
+
+#Solve4
+# usiaBersama = 49
+# usiaAndi = round(usiaBersama*0.4)
+# usiaBudi = round(usiaBersama*0.6)
+# usiaAndi += 2
+# usiaBudi += 2
+# print(usiaAndi)
+# print(usiaBudi)
+
+
+#Solve5
+# x = "halo dunia"
+# print("Halo dunia memiliki huruf 'a' sebanyak " + str(x.count('a')) + " buah")
+
+#Solve6
+
+# jarak = 120 
+# tabrakan = ('jam ' + str(9 + jarak//(60+40))) + ':' + str(int((jarak%(60+40)/(60+40)*60)))
+# print(tabrakan)
+
+
+#PRsoal1
+empatdigit = int(input('input: '))
+cyclic = (empatdigit%100)*100 + empatdigit//100
+print(cyclic)
+
+#PRsoal2
+import math
+
+#PRsoal3
+
+
+# #PRsoal4
+# A = 'jihargifari'
+# print(A.replace('a', ' '))
+
+#PRsoal5
+# sentList = 'makan temen'
+# currentWord = input('swap word: ')
+# newWord = input('with word: ')
+
+# sentList = [sentList.replace(currentWord, newWord)]
