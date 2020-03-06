@@ -1,2 +1,1 @@
 print('sesuatu')
-print('apalah')
